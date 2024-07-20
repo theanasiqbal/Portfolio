@@ -16,7 +16,7 @@ const Hero = () => {
                     I'm a
                 </span> <br/>
                 <TypeAnimation sequence={["Frontend Dev",1000,
-                    "Web designer",1000, "Cinematographer", 1000
+                    "Web designer",1000, 
                 ]}
                 wrapper='span'
                 speed={50}
