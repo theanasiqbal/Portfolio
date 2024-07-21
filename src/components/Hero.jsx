@@ -1,13 +1,13 @@
 import React from 'react'
-import heroImage from '../assets/profilepic7.png'
 import { TypeAnimation } from 'react-type-animation'
+import profile from '../mydata/profile.jpeg'
 
 const Hero = () => {
   return (
     <div className='grid grid-cols-1 sm:grid-cols-3 gap-8 max-w-[1200px] md:h-[70vh] mx-auto py-8'>
 
-        <div className='col-span-1 my-auto mx-auto w-[300px] h-auto lg:w-[400px]'>
-                <img src={heroImage} alt='Hero Image'/>
+        <div className='col-span-1 my-auto mx-auto w-[200px] h-auto lg:w-[300px]'>
+                <img src={profile} alt='Profile' className='transition ease-in-out duration-200 rounded-full border-4 hover:shadow-[0px_0px_36px_19px_rgba(17,157,164,0.2)] border-x-teal-600 border-y-cyan-700'/>
         </div>
 
         <div className='col-span-2 px-5 my-auto'>
@@ -23,11 +23,11 @@ const Hero = () => {
                 repeat={Infinity}/>
             </h1>
 
-            <p className='text-white sm:text-lg my-6 lg:text-xl'>My name is Anas Iqbal and I am a fresher in web developement</p>
+            <p className='text-white sm:text-lg my-6 lg:text-xl'>My name is Anas Iqbal and I am a fresher in Web developement</p>
 
             <div className='my-8'>
-                <a href='/' className='px-6 py-3 w-full rounded-xl mr-4 bg-gradient-to-r from-orange-500 to-pink-500 text-white'>Download CV</a>
-                <a href='#contact' className='px-6 py-3 w-full rounded-xl  border border-gray-400 hover:bg-gradient-to-r from-orange-500 to-pink-500 text-white hover:border-none'>
+                <a href='/' className='px-6 py-3 w-full rounded-xl mr-4 bg-gradient-to-l from-teal-600 to-cyan-700 text-white font-medium' >Download CV</a>
+                <a href='#contact' className='px-6 py-3 w-full rounded-xl  border border-gray-400 hover:bg-gradient-to-r from-teal-600 to-cyan-700 font-medium text-white hover:border-none'>
                 Contact</a>
             </div>
 

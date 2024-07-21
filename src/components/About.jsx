@@ -10,7 +10,10 @@ const About = () => {
             <div className='my-auto mx-6'>
                 <h2 className='text-4xl font-bold mb-4 primary-color'>About Me</h2>
                 <p className='text-base lg:text-lg'>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium cum ipsam blanditiis nemo, quo, possimus alias magnam eos architecto quos harum velit culpa, eum repellat id atque molestiae dolore consectetur.
+                Hi ! I'm <span className='primary-color font-semibold'>Anas Iqbal</span>, a passionate Frontend Developer specializing in HTML, CSS, JavaScript, and React. I love creating responsive, interactive web applications and bringing animations to life with tools like Framer Motion. I'm always learning and exploring new tech trends.<br/>
+
+                In my free time, I dive into design principles, contribute to open-source projects, and enjoy collaborative work. Let's create something amazing together!
+
                 </p>
             </div>
         </div>
