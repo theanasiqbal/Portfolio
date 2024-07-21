@@ -1,5 +1,5 @@
 import React from 'react'
-import aboutImg from '../assets/about.jpg'
+import aboutImg from '../mydata/file.png'
 
 
 const About = () => {
@@ -17,7 +17,7 @@ const About = () => {
                 </p>
             </div>
         </div>
-        <img className='mx-auto rounded-3xl py-8 md:py-0' src={aboutImg} width={300} height={300}/>
+        <img className='mx-auto sm:rounded-3xl py-8 md:py-0 drop-shadow-[0_0_16px_rgba(14,120,144,0.3)] hover:drop-shadow-[0_0_30px_rgba(14,120,144,0.7)] transition duration-200' src={aboutImg} width={300} height={300}/>
         </div>  
     </div>
   )

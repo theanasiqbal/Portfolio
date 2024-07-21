@@ -13,9 +13,10 @@ const Navbar = () => {
 
             <h1 className='text-3xl font-bold primary-color ml-4'>Anas Iqbal</h1>
             <ul className='hidden md:flex'>
-                <li className='p-5'><a href='#about'>About</a></li>
-                <li className='p-5'><a href='#work'>Work</a></li>
-                <li className='p-5'><a href='#contact'>Contact</a></li>
+                <li className='p-5'><a href='#about' className='hover:text-teal-600 font-medium'>About</a></li>
+                <li className='p-5'><a href='#work' className='hover:text-teal-600 font-medium' >Projects</a></li>
+                <li className='p-5'><a href='#education' className='hover:text-teal-600 font-medium' >Education</a></li>
+                <li className='p-5'><a href='#contact' className='hover:text-teal-600 font-medium' >Contact</a></li>
             </ul>
 
             <div onClick={handleNav} className='block md:hidden mr-6'>
@@ -25,9 +26,10 @@ const Navbar = () => {
             <div className={nav ? 'z-10 fixed h-full left-0 top-0 w-[60%] bg-[#202121] ease-in-out duration-500' : 'fixed left-[-100%]'}>
                 <h1 className='text-3xl primary-color m-4'>Anas Iqbal</h1>
                 <ul className='p-8 text-2xl'>
-                    <li className='p-2'><a href='#about'>About</a></li>
-                    <li className='p-2'><a href='#work'>Work</a></li>
-                    <li className='p-2'><a href='#contact'>Contact</a></li>
+                    <li className='p-2'><a href='#about' className='hover:text-teal-600'>About</a></li>
+                    <li className='p-2'><a href='#work' className='hover:text-teal-600'>Work</a></li>
+                    <li className='p-2'><a href='#education' className='hover:text-teal-600'>Education</a></li>
+                    <li className='p-2'><a href='#contact' className='hover:text-teal-600'>Contact</a></li>
                 </ul>
             </div>
 

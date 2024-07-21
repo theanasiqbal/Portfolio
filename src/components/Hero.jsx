@@ -7,7 +7,7 @@ const Hero = () => {
     <div className='grid grid-cols-1 sm:grid-cols-3 gap-8 max-w-[1200px] md:h-[70vh] mx-auto py-8'>
 
         <div className='col-span-1 my-auto mx-auto w-[200px] h-auto lg:w-[300px]'>
-                <img src={profile} alt='Profile' className='transition ease-in-out duration-200 rounded-full border-4 hover:shadow-[0px_0px_36px_19px_rgba(17,157,164,0.2)] border-x-teal-600 border-y-cyan-700'/>
+                <img src={profile} alt='Profile' className='transition ease-in-out duration-200 rounded-full border-2 shadow-[0px_0px_58px_31px_rgba(17,157,164,0.2)] hover:shadow-[0px_0px_58px_31px_rgba(17,157,164,0.3)] border-x-teal-600 border-y-cyan-700'/>
         </div>
 
         <div className='col-span-2 px-5 my-auto'>
