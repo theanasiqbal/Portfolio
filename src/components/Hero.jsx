@@ -1,6 +1,7 @@
 import React from 'react'
 import { TypeAnimation } from 'react-type-animation'
 import profile from '../mydata/profile.jpeg'
+import pdf from '../mydata/CV.pdf'
 
 const Hero = () => {
   return (
@@ -26,7 +27,7 @@ const Hero = () => {
             <p className='text-white sm:text-lg my-6 lg:text-xl'>My name is Anas Iqbal and I am a fresher in Web developement</p>
 
             <div className='my-8'>
-                <a href='/' className='px-6 py-3 w-full rounded-xl mr-4 bg-gradient-to-l from-teal-600 to-cyan-700 text-white font-medium' >Download CV</a>
+                <a href={pdf} download={pdf} className='px-6 py-3 w-full rounded-xl mr-4 bg-gradient-to-l from-teal-600 to-cyan-700 text-white font-medium' >Download CV</a>
                 <a href='#contact' className='px-6 py-3 w-full rounded-xl  border border-gray-400 hover:bg-gradient-to-r from-teal-600 to-cyan-700 font-medium text-white hover:border-none'>
                 Contact</a>
             </div>
