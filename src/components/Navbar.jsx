@@ -15,6 +15,7 @@ const Navbar = () => {
             <ul className='hidden md:flex'>
                 <li className='p-5'><a href='#about' className='hover:text-teal-600 font-medium'>About</a></li>
                 <li className='p-5'><a href='#skills' className='hover:text-teal-600 font-medium' >Skills</a></li>
+                <li className='p-5'><a href='#experience' className='hover:text-teal-600 font-medium' >Work Experience</a></li>
                 <li className='p-5'><a href='#work' className='hover:text-teal-600 font-medium' >Projects</a></li>
                 <li className='p-5'><a href='#contact' className='hover:text-teal-600 font-medium' >Contact</a></li>
             </ul>
@@ -28,6 +29,7 @@ const Navbar = () => {
                 <ul className='p-8 text-2xl'>
                     <li className='p-2'><a href='#about' className='hover:text-teal-600'>About</a></li>
                     <li className='p-2'><a href='#skills' className='hover:text-teal-600'>Skills</a></li>
+                    <li className='p-2'><a href='#experience' className='hover:text-teal-600 max-md:whitespace-nowrap' >Work Experience</a></li>
                     <li className='p-2'><a href='#work' className='hover:text-teal-600'>Work</a></li>
                     <li className='p-2'><a href='#contact' className='hover:text-teal-600'>Contact</a></li>
                 </ul>
