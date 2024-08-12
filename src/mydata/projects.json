@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Recipe App",
+    "deployLink": "https://get-recipe-next.netlify.app/",
+    "image": "/images/Recipe.png"
+  },
+  {
+    "name": "Weather App",
+    "deployLink": "https://weather-locator-app.netlify.app/",
+    "image": "/images/weather.png"
+  },
+  {
+    "name": "Docs Mini",
+    "deployLink": "https://docs-mini-web.netlify.app/",
+    "image": "/images/Docs.png"
+  },
+  {
+    "name": "Bg-Changer",
+    "deployLink": "https://the-bg-changer.netlify.app/",
+    "image": "/images/bgchanger.png"
+  },
+  {
+    "name": "Marketing Website",
+    "deployLink": "https://marketier.netlify.app/",
+    "image": "/images/bootstrap.png"
+  },
+  {
+    "name": "Shoe Landing Page",
+    "deployLink": "https://shoe-factory.netlify.app/",
+    "image": "/images/shoe.png"
+  },
+  {
+    "name": "Swiggy Html & Css",
+    "deployLink": "https://the-swiggy-clone.netlify.app/",
+    "image": "/images/Swiggy.png"
+  }
+]

@@ -1,5 +1,5 @@
 import React from 'react'
-import aboutImg from '../mydata/file.png'
+import aboutImg from '../../public/images/file.png'
 
 
 const About = () => {
