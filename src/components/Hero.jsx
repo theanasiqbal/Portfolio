@@ -11,11 +11,11 @@ const Hero = () => {
         </div>
 
         <div className='col-span-2 px-5 my-auto'>
-            <h1 className='text-white text-4xl sm:text-5xl lg:text-8xl font-extrabold'>
+            <h1 className='text-white text-4xl font-mono sm:text-5xl lg:text-7xl font-extrabold'>
                 <span className='primary-color'>
                     I'm a
                 </span> <br/>
-                <TypeAnimation sequence={["Frontend Dev",1000,
+                <TypeAnimation sequence={["Mern Stack Dev",1000,
                     "Web designer",1000, 
                 ]}
                 wrapper='span'
@@ -23,7 +23,7 @@ const Hero = () => {
                 repeat={Infinity}/>
             </h1>
 
-            <p className='text-white sm:text-lg my-6 lg:text-xl'>My name is Anas Iqbal and I am a fresher in Web development</p>
+            <p className='text-white sm:text-lg my-6 lg:text-xl '>I am a MERN Stack Developer specializing in creating responsive web applications with React, Node.js, Express, and MongoDB. My work focuses on crafting seamless user experiences and efficient full-stack solutions.</p>
 
             <div className='my-8'>
                 <a href={pdf} download="My_CV.pdf" className='px-6 py-3 w-full rounded-xl mr-4 bg-gradient-to-l from-teal-600 to-cyan-700 text-white font-medium'>Download CV</a>
